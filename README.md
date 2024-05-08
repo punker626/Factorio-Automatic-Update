@@ -7,10 +7,12 @@ We also assume that you have a basic understanding of where your files are and w
 The script has 4 functions.
 
 Function 1. Retrieves the Latest version from the Factorio.com/download website. 
-  *note* If anything changes with this site it could break the auto-update feature.
+
+*note* If anything changes with this site it could break the auto-update feature.
 
 Function 2. Retrieves the Current installation from the factorio installation.
-  *note* If your installation is not in the same location you will need to adjust this accordingly
+  
+*note* If your installation is not in the same location you will need to adjust this accordingly
 
 Function 3. Compares the two versions that you have revieved to determine if you have the latest or not.
 
