@@ -18,15 +18,18 @@ Function 3. Compares the two versions that you have revieved to determine if you
 
 Function 4. This is an automated update that has several logical steps
 
-Step 1. Removes the Archived Installation - Oldest Version
-Step 2. Copies the Backup to the Archived position
-Step 3. Removes the Backup Installation
-Step 4. Stops the Service
-Step 5. Copies the current installation to the Backup position
-Step 6. Downloads a copy of the newest version
-Step 7. Makes sure the service is not running
-Step 8. Untars the xz file into the current installation assuming it is in the /opt/ folder
-Step 9. Starts the Service
-Step 10. Checks the status. 
+Steps of the script
+
+1. Removes the Archived Installation - Oldest Version
+2. Copies the Backup to the Archived position
+3. Removes the Backup Installation
+4. Stops the Service
+5. Copies the current installation to the Backup position
+6. Downloads a copy of the newest version
+7. Makes sure the service is not running
+8. Untars the xz file into the current installation assuming it is in the /opt/ folder
+9. Starts the Service
+10. Checks the status.
+
 
 If you system is up to date the script will do nothing.
