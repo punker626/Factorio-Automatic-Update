@@ -21,7 +21,7 @@ Function 4. This is an automated update that has several logical steps
   Step 4. Stops the Service
   Step 5. Copies the current installation to the Backup position
   Step 6. Downloads a copy of the newest version
-  Step 7. Makes sure the service is not running (this is in case you have the auto start cron job as well)
+  Step 7. Makes sure the service is not running
   Step 8. Untars the xz file into the current installation assuming it is in the /opt/ folder
   Step 9. Starts the Service
   Step 10. Checks the status. 
